@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Header -->
+        <header>
+            <div class="container">
+                    <div class="logo">
+                        <img src="img/logo2.png">
+                        <h3>Fict Company</h3>
+                    </div>
+                    <button class="hamburger" id="hamburger">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="links">
+                        <ul>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#prices">Prices</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                            <li><a href="#" class="btn">Sing Up</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </header>
+
+        <!-- Showcase -->
+
+        <section class="showcase" id="features">
+            <div class="container">
+
+                <div class="grid-item">
+                    <div class="title">
+                        <h1>Find a better way to<br>manage your projects</h1>
+                    </div>
+                    <p class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quod eum rerum tenetur facilis
+                        dolores aut, obcaecati autem? Molestias, ea!
+                    </p>
+                    <a href="#" class="btn">Get Started</a>
+                </div>
+
+                <div class="grid-item">
+                    <img class="img-one" src="/img/illustration000.png" alt="">
+                </div>
+
+                <div class="grid-item">
+                    <img class="img-two" src="/img/Idea Colour/idea-colored.svg" alt="">
+                </div>
+
+                <div class="grid-item">
+                    <div class="title">
+                        <h3>More bang for your buck</h3>
+                    </div>
+                    <p class="text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam quibusdam corrupti in,
+                        explicabo animi necessitatibus recusandae nulla sapiente! Sapiente quae praesentium iste facilis
+                        vero veritatis doloribus. Atque nostrum reiciendis ab!
+
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Prices -->
+
+        <section class="prices" id="prices">
+            <div class="container">
+                <h1>Consult our prices!</h1>
+                <div class="row">
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">FREE</div>
+                            <div class="card-subtitle"><span>$0</span>/month</div>
+                            <hr>
+                            <div class="card-items">
+                                <ul>
+                                    <li><i class="fas fa-check"></i>Single User</li>
+                                    <li><i class="fas fa-check"></i>5GB Storage</li>
+                                    <li><i class="fas fa-check"></i>Unlimited Public Projects</li>
+                                    <li><i class="fas fa-check"></i>Community Access</li>
+                                    <li><i class="fas fa-times"></i>Unlimited private Projects</li>
+                                    <li><i class="fas fa-times"></i>Dedicated Phone Support</li>
+                                    <li><i class="fas fa-times"></i>Free Subdomain</li>
+                                    <li><i class="fas fa-times"></i>Monthly Status Report</li>
+                                </ul>
+                            </div>
+                            <button class="btn-buy">Buy</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">PLUS</div>
+                            <div class="card-subtitle"><span>$9</span>/month</div>
+                            <hr>
+                            <div class="card-items">
+                                <ul>
+                                    <li><i class="fas fa-check"></i>Single User</li>
+                                    <li><i class="fas fa-check"></i>5GB Storage</li>
+                                    <li><i class="fas fa-check"></i>Unlimited Public Projects</li>
+                                    <li><i class="fas fa-check"></i>Community Access</li>
+                                    <li><i class="fas fa-check"></i>Unlimited private Projects</li>
+                                    <li><i class="fas fa-check"></i>Dedicated Phone Support</li>
+                                    <li><i class="fas fa-check"></i>Free Subdomain</li>
+                                    <li><i class="fas fa-times"></i>Monthly Status Report</li>
+                                </ul>
+                            </div>
+                            <button class="btn-buy">Buy</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title" style="color: #c9465f;">PRO</div>
+                            <div class="card-subtitle"><span>$49</span>/month</div>
+                            <hr>
+                            <div class="card-items">
+                                <ul>
+                                    <li><i class="fas fa-check"></i>Single User</li>
+                                    <li><i class="fas fa-check"></i>5GB Storage</li>
+                                    <li><i class="fas fa-check"></i>Unlimited Public Projects</li>
+                                    <li><i class="fas fa-check"></i>Community Access</li>
+                                    <li><i class="fas fa-check"></i>Unlimited private Projects</li>
+                                    <li><i class="fas fa-check"></i>Dedicated Phone Support</li>
+                                    <li><i class="fas fa-check"></i>Free Subdomain</li>
+                                    <li><i class="fas fa-check"></i>Monthly Status Report</li>
+                                </ul>
+                            </div>
+                            <button class="btn-buy">Buy</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <div class="accordion" id="testimonials">
+
+            <h2>What are they saying</h2>
+
+            <div class="contentBx" onclick="func(this)">
+                <div class="label">Item One</div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam recusandae eaque repellat
+                        repudiandae in sunt laborum accusantium vero. Obcaecati, nemo?</p>
+                </div>
+            </div>
+
+            <div class="contentBx" onclick="func(this)">
+                <div class="label">Item Two</div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam recusandae eaque repellat
+                        repudiandae
+                        in sunt laborum accusantium vero. Obcaecati, nemo?</p>
+                </div>
+            </div>
+
+            <div class="contentBx" onclick="func(this)">
+                <div class="label">Item Tree</div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam recusandae eaque repellat
+                        repudiandae
+                        in sunt laborum accusantium vero. Obcaecati, nemo?</p>
+                </div>
+            </div>
+            <div class="contentBx" onclick="func(this)">
+                <div class="label">Item Four</div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam recusandae eaque repellat
+                        repudiandae
+                        in sunt laborum accusantium vero. Obcaecati, nemo?</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <h3>&copy; 2021 All Rights Reserved</h3>
+        </footer>
+
+    </div>
+
+
+
+    <script src="./script.js">
+
+    </script>
+
+</body>
+
+</html>
